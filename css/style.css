@@ -1,0 +1,832 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Miltonian+Tattoo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -------header section start-------- */
+header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  /* background-image: linear-gradient(rgba(165, 42, 42, 0.429), white); */
+  background-color: black;
+  border-bottom-color: rgb(161, 33, 33);
+  box-shadow: -5px -9px 20px black;
+  position: sticky;
+  flex-wrap: wrap;
+  top: 0px;
+  z-index: 80;
+  flex-wrap: wrap;
+  animation-name: thala;
+  animation-duration: 2s;
+}
+
+header .fa-bars {
+  align-items: center;
+}
+.head-1 {
+  padding: 20px;
+  align-self: center;
+  transition: 2s;
+}
+.logo {
+  /* border: 1px solid red; */
+}
+.logo h2 {
+  /* color: 5px rgb(255, 255, 255); */
+  /* -webkit-text-stroke: 2px rgb(136, 15, 15); */
+  color: white;
+  font-family: "Alex Brush", cursive;
+  font-size: 45px;
+  font-weight: 100px;
+}
+.logo span {
+  color: goldenrod;
+}
+.navi {
+  /* border: 1px solid red; */
+}
+.navi ul {
+  /* display: flex; */
+}
+.navi ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* .navi ul li a::after {
+  content: "";
+  background-image: linear-gradient(to left, blue, orange);
+  display: block;
+  transition: 0.5s;
+} */
+.navi ul li a:hover::after {
+  width: 100%;
+  height: 5px;
+  margin: 0 auto;
+}
+.navi ul li {
+  list-style-type: none;
+  margin-right: 20px;
+  /* padding: 10px; */
+  display: inline;
+  color: rgb(255, 255, 255);
+  border-radius: 10px 20px 10px 20px;
+  transition: 0.3s 0.1ms ease-in-out;
+  font-size: 20px;
+  font-family: "Aladin", system-ui;
+  cursor: pointer;
+}
+.navi ul li a:hover {
+  /* transform: scale(1.1, 1.1); */
+  /* background-color: rgb(95, 16, 16); */
+  color: gold;
+  border-radius: 10px 20px 10px 20px;
+  box-shadow: 0px 2px 9px black;
+}
+
+.hicons {
+  /* border: 1px solid red; */
+}
+.hicons i {
+  color: white;
+  margin-right: 30px;
+  font-size: 30px;
+  transition: 0.3s;
+}
+.hicons i:hover {
+  transform: scale(1.1, 1.1);
+  color: gold;
+}
+.container1 {
+  background-image: url("../images/border-bg3.jpg");
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  flex-wrap: wrap;
+}
+.heading-con {
+  position: absolute;
+  color: white;
+  /* border: 1px solid red; */
+  width: 600px;
+  top: 100px;
+  left: 50px;
+}
+.heading-con h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-align-last: center;
+  font-family: "Miltonian Tattoo", serif;
+}
+.heading-con p {
+  font-size: 20px;
+  text-indent: 30px;
+  text-align-last: center;
+  font-family: "Parisienne", cursive;
+}
+.heading-con span {
+  color: rgba(218, 165, 32, 0.779);
+}
+/* -------header section end-------- */
+
+/* ------- container1  section start-------- */
+.container1 .readmore {
+  position: absolute;
+  top: 70%;
+  left: 17%;
+}
+.container1 .readmore a {
+  text-decoration: none;
+  color: goldenrod;
+  border: 1px solid goldenrod;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+}
+.container1 .readmore a:hover {
+  transform: scale(2.2, 2.2);
+  /* background-color: white; */
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+/* ------- container2  section start-------- */
+.container2 {
+  /* border: 1px solid red; */
+  /* height: 80vh; */
+  background-color: rgba(0, 0, 0, 0.921);
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+
+  padding: 30px 2%;
+  flex-wrap: wrap;
+}
+.container2 .content1 {
+  color: white;
+  /* border: 1px solid red; */
+  /* margin-left: 70px;
+  margin-top: 100px; */
+  align-self: center;
+  width: 450px;
+}
+.container2 .content1 h2 {
+  width: 100%;
+  word-spacing: 15px;
+  font-size: 35px;
+  margin-bottom: 15%;
+  font-family: "Miltonian Tattoo", serif;
+}
+.container2 .content1 h2 span {
+  color: gold;
+}
+.container2 .content1 p {
+  font-size: 20px;
+  /* text-indent: 30px; */
+  color: rgba(255, 255, 255, 0.538);
+  font-family: "Parisienne", cursive;
+}
+.container2 .content1 a {
+  color: gold;
+  border: 1px solid goldenrod;
+  position: absolute;
+  margin-top: 25px;
+  /* margin-left: 60px; */
+  padding: 20px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.container2 .content1 a:hover {
+  color: white;
+  border: 1px solid white;
+}
+.container2 .content2 {
+  width: 600px;
+  /* border: 1px solid red; */
+  color: white;
+  /* margin-top: 100px; */
+  align-self: center;
+}
+.container2 .content2 img {
+  width: 100%;
+}
+.container2 .content3 {
+  /* border: 1px solid red; */
+  color: white;
+}
+
+.content3 {
+  /* margin-top: 100px; */
+  display: flex;
+  align-self: center;
+  /* border: 1px solid red; */
+  /* margin-right: 70px; */
+}
+.content3 .con {
+  /* border: 1px solid red; */
+}
+.content3 .con .con1 {
+  /* border: 1px solid red; */
+  display: flex;
+  margin-bottom: 100px;
+}
+.content3 .con .con1 .ccon {
+  width: 300px;
+}
+.content3 .con .con1 .ccon h3 {
+  margin-bottom: 15px;
+}
+.content3 .con .con1 .ccon p {
+  color: rgba(255, 255, 255, 0.538);
+  font-family: "Parisienne", cursive;
+}
+.content3 .con .clogo {
+  /* border: 1px solid red; */
+  align-self: center;
+  font-size: 55px;
+  margin-right: 25px;
+  color: gold;
+}
+/* ------- container1  section end-------- */
+/*---------- container3  section start ------------*/
+.container3 {
+  /* border: 1px solid red; */
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.art-1 {
+  /* border: 1px solid red; */
+  width: 300px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.a1 {
+  margin-top: 22px;
+}
+
+.art-1 .art-img {
+  position: relative;
+  width: 300px;
+}
+.art-1 .art-img img {
+  width: 100%;
+  position: relative;
+}
+/* animation: circle 5s linear infinite;
+  overflow: hidden;
+}
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+.art-1 .art-img h1 {
+  /* border: 1px solid red; */
+  width: 100px;
+  object-fit: cover;
+}
+.art-1 .art-img h1 img {
+  width: 100%;
+  position: absolute;
+  top: 2%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.art-1 .art-img h1 img:hover {
+  /* filter: drop-shadow(-1px -3px 17px gold); */
+  transform: scale(1.2, 1.2);
+}
+.art-1 .art-cont {
+  /* border: 1px solid red; */
+  color: white;
+}
+.art-cont h2 {
+  font-size: 10px;
+  border: 1px soli goldenrod;
+  color: goldenrod;
+  text-decoration: none;
+  border: 1px solid goldenrod;
+  padding: 15px;
+  margin-left: 65px;
+  width: 125px;
+  border-radius: 30px;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+.art-cont h2:hover {
+  transform: scale(1.1, 1.1);
+  color: white;
+  background-color: goldenrod;
+}
+.art-cont h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: "Charm", cursive;
+}
+.art-cont h5 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: goldenrod;
+  margin-bottom: 10px;
+}
+/*------------ container3 section end---------- */
+/*----------- container4 section Start------------- */
+.container4 {
+  background-color: rgba(0, 0, 0, 0.962);
+  display: flex;
+  padding: 30px 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container4 .sec1 {
+  color: white;
+  padding: 70px;
+  margin-left: 50px;
+  border-right: 1px solid goldenrod;
+}
+.container4 .sec1 h1 {
+  font-family: "Imperial Script", cursive;
+}
+.container4 .sec11 {
+  color: white;
+  padding: 70px;
+  margin-left: 50px;
+}
+.container4 .sec11 h1 {
+  text-align: center;
+  font-size: 100px;
+  color: goldenrod;
+  font-family: "Imperial Script", cursive;
+}
+.container4 .sec11 h3 {
+  text-align: center;
+}
+
+.container4 .sec1 h1 {
+  text-align: center;
+  font-size: 100px;
+  color: goldenrod;
+}
+.container4 .sec1 h3 {
+  text-align: center;
+}
+/*----------- container4 section end------------- */
+/*----------- container5 section start------------- */
+.container5 {
+  /* border: 1px solid red; */
+  background-color: rgba(0, 0, 0, 0.914);
+  /* height: 90vh; */
+}
+.wallpaper {
+  background-image: url("../images/bg-2-2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  animation-name: wallpaper1;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+.container5 p {
+  color: goldenrod;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.container5 h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.container5 h1 span {
+  color: goldenrod;
+  /* font-size: 50px; */
+}
+.container5 h2 {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  border: 1px solid goldenrod;
+  width: 8%;
+  margin-left: 45%;
+  border-radius: 30px;
+  padding: 20px;
+  transition: 0.3s;
+}
+.container5 h2:hover {
+  transform: scale(1.1, 1.1);
+  color: goldenrod;
+  border: 1px solid rgb(255, 255, 255);
+}
+.container5 .artimg-con {
+  display: flex;
+  justify-content: space-around;
+  transition: 0.3s;
+  flex-wrap: wrap;
+}
+.container5 .artimg-con:hover {
+}
+.container5 .c11 {
+  width: 250px;
+  border: 2px solid goldenrod;
+  transform: rotate(10deg);
+  transition: all 0.3s;
+  margin: 20px;
+  /* opacity: 0.8; */
+}
+.container5 .c11:hover {
+  border: 2px solid goldenrod;
+  transform: rotate(0deg) scale(1.2, 1.2);
+  /* transform: scale(1.1, 1.1); */
+  overflow: hidden;
+}
+.container5 .c11 img {
+  transform: rotate(-10deg);
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.container5 .c11 img:hover {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+.container5 .c1 img {
+  width: 100%;
+}
+.container5 .c2 img {
+  width: 100%;
+}
+.container5 .c3 img {
+  width: 100%;
+}
+.container5 .c4 img {
+  width: 100%;
+}
+/*----------- container5 section end------------- */
+/*----------- container6 section start------------- */
+.container6 {
+  background-color: black;
+  border: 1px solid black;
+  margin: 30px 0px;
+}
+.container6 .content-con1 {
+  /* margin-top: 100px; */
+  color: white;
+  /* border: 1px solid red; */
+}
+.container6 .content-con1 p {
+  text-align: center;
+  color: goldenrod;
+}
+.container6 .content-con1 h2 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Miltonian Tattoo", serif;
+}
+.container6 .content-con2 {
+  color: white;
+  /* margin-top: 30px;
+  margin-left: 250px; */
+  width: 70%;
+  margin: auto;
+  border: 1px solid goldenrod;
+  margin-bottom: 40px;
+}
+.container6 .content-con2 h1 {
+  color: goldenrod;
+  text-align: center;
+  font-size: 85px;
+}
+.container6 .content-con2 h3 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  font-family: "Parisienne", cursive;
+}
+/*----------- container6 section end------------- */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.952);
+  flex-wrap: wrap;
+}
+footer .f1 {
+  width: 300px;
+  margin-top: 50px;
+  color: white;
+}
+footer .f1 .foot-head1 {
+  margin-bottom: 20px;
+}
+footer .f1 .foot-head1 h1 {
+  font-size: 45px;
+  font-family: "Alex Brush", cursive;
+}
+.foot1 .foot-head2 p {
+  font-family: "Parisienne", cursive;
+}
+footer .f1 .foot-head1 p {
+  color: goldenrod;
+}
+footer .f1 .foot-head3 {
+  margin-top: 20px;
+}
+footer .f1 .foot-head3 i {
+  font-size: 30px;
+  margin-right: 15px;
+  color: goldenrod;
+  cursor: pointer;
+  transition: 0.2s;
+}
+footer .f1 .foot-head3 i:hover {
+  transform: scale(1.2, 1.2);
+  color: white;
+}
+.f1 .foot-cen-1 h2 {
+  color: goldenrod;
+  margin-bottom: 30px;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: "Miltonian Tattoo", serif;
+}
+.f1 .number h4 {
+  color: goldenrod;
+  font-size: 13px;
+}
+.f1 .foot-cen-2 .cellphone {
+  display: flex;
+}
+.f1 .content-con-4 {
+  display: flex;
+  margin-bottom: 40px;
+}
+.f1 .content-con-4 .con-img-1 {
+  width: 50px;
+}
+.f1 .content-con-4 .con-img-1 img {
+  width: 100%;
+}
+
+.f1 .content-con-5 .con-img-1 {
+  width: 50px;
+}
+.f1 .content-con-5 .con-img-1 img {
+  width: 100%;
+}
+
+.f1 .content-con-5 {
+  display: flex;
+}
+footer .if {
+  color: goldenrod;
+  font-size: 30px;
+  padding: 10px;
+}
+footer .cellphone {
+  margin-bottom: 20px;
+}
+.f1 .latestpost {
+  color: goldenrod;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: "Miltonian Tattoo", serif;
+}
+.foot3 .con-img-heading {
+  margin-left: 20px;
+}
+.foot3 .con-img-heading h3 {
+  color: goldenrod;
+}
+.container7 {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+.container7 .since {
+  border-top: 1px solid goldenrod;
+  /* width: 1300px; */
+  margin-left: 100px;
+  padding: 30px;
+}
+.container7 .since h4 {
+  text-align: center;
+}
+.container7 .since h4 span {
+  color: goldenrod;
+}
+
+.fa {
+  color: goldenrod;
+  cursor: pointer;
+}
+
+.fa-bars {
+  display: none !important;
+}
+/*----------- Amnimations------- */
+.img-rotate {
+  animation-name: img-rotate;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  border-radius: 50%;
+}
+@keyframes img-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.title {
+  animation-name: title;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  /* animation-iteration-count: infinite; */
+}
+@keyframes title {
+  from {
+    opacity: 0;
+    transform: translate(40px) scale(2);
+  }
+}
+.logo {
+  animation-name: title;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  /* animation-iteration-count: infinite; */
+}
+@keyframes logo {
+  from {
+    opacity: 0;
+    transform: translate(40px) scale(2);
+  }
+}
+
+@keyframes wallpaper1 {
+  from {
+    opacity: 0;
+    transform: translate(40px) scale(2);
+  }
+}
+@keyframes thala {
+  from {
+    transform: scaleX(3) scaleY(3) perspective(50px);
+    opacity: 0.8;
+  }
+  /* to {
+    transform: scaleX(1) scaleY(1);
+    opacity: 1;
+  } */
+}
+@media only screen and (max-width: 580px) {
+  .heading-con {
+    position: absolute;
+    color: white;
+    /* border: 1px solid red; */
+    width: 100% !important;
+    top: 100px;
+    left: 0px;
+  }
+
+  .container4 .sec1 {
+    color: white;
+    padding: 27px;
+    /* margin-left: 50px; */
+    border-right: none;
+    /* border-bottom: 1px solid goldenrod; */
+  }
+  .container5 h2 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid goldenrod;
+    width: 30%;
+    margin-left: 31%;
+    border-radius: 30px;
+    padding: 20px;
+    transition: 0.3s;
+  }
+
+  .navi {
+    display: none;
+  }
+  /* .heading-con h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align-last: center;
+    font-family: "Miltonian Tattoo", serif;
+    margin-right: 270px;
+  }
+  .heading-con p {
+    font-size: 20px;
+    text-indent: 30px;
+    text-align-last: center;
+    font-family: "Parisienne", cursive;
+    margin-right: 270px;
+  } */
+
+  .container2 {
+    background-color: rgba(0, 0, 0, 0.921);
+
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+
+    padding: 30px 10%;
+    flex-wrap: wrap;
+  }
+  .container1 .readmore {
+    position: absolute;
+    top: 80%;
+    left: 37%;
+  }
+  .container2 .content1 {
+    color: white;
+    /* border: 1px solid red; */
+    /* margin-left: 70px;
+    margin-top: 100px; */
+    width: 100%;
+  }
+
+  .container2 .content2 {
+    width: auto;
+    /* border: 1px solid red; */
+    color: white;
+    /* margin-top: 100px; */
+    align-self: center;
+  }
+
+  .container5 {
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.914);
+    /* height: 100vh; */
+  }
+
+  .content2 img {
+    margin-top: 150px;
+  }
+  .content3 .con .con1 .ccon {
+    width: auto;
+  }
+
+  .art-1 .art-img {
+    position: relative;
+    width: auto;
+  }
+
+  .art-1 {
+    /* border: 1px solid red; */
+    width: 300px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* .hicons {
+    display: none;
+  } */
+  .fa-bars {
+    display: block !important;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  .hicons {
+    display: none;
+  }
+  header .fa-bars {
+    align-items: center;
+    padding: 40px;
+    font-size: 27px;
+  }
+  .navi {
+    width: 100%;
+    text-align: center;
+  }
+  .navi ul li {
+    display: block;
+    margin-bottom: 26px;
+  }
+}

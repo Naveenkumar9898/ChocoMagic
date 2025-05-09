@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Miltonian+Tattoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amarante&family=Charm:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* -------header section start-------- */
+header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  /* background-image: linear-gradient(rgba(165, 42, 42, 0.429), white); */
+  background-color: black;
+  border-bottom-color: rgb(161, 33, 33);
+  box-shadow: -5px -9px 20px black;
+  position: sticky;
+  top: 0px;
+  z-index: 80;
+  flex-wrap: wrap;
+}
+
+.head-1 {
+  padding: 20px;
+  align-self: center;
+}
+.logo {
+  /* border: 1px solid red; */
+}
+.logo h2 {
+  /* color: 5px rgb(255, 255, 255); */
+  /* -webkit-text-stroke: 2px rgb(136, 15, 15); */
+  color: white;
+  font-family: "Alex Brush", cursive;
+  font-size: 45px;
+  font-weight: 100px;
+}
+.logo span {
+  color: goldenrod;
+}
+.navi {
+  /* border: 1px solid red; */
+}
+.navi ul {
+  display: flex;
+}
+.navi ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* .navi ul li a::after {
+  content: "";
+  background-image: linear-gradient(to left, blue, orange);
+  display: block;
+  transition: 0.5s;
+} */
+.navi ul li a:hover::after {
+  width: 100%;
+  height: 5px;
+  margin: 0 auto;
+}
+.navi ul li {
+  list-style-type: none;
+  margin-right: 20px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px 20px 10px 20px;
+  transition: 0.3s 0.1ms ease-in-out;
+  font-size: 20px;
+  font-family: "Aladin", system-ui;
+  cursor: pointer;
+}
+.navi ul li a:hover {
+  /* transform: scale(1.1, 1.1); */
+  /* background-color: rgb(95, 16, 16); */
+  color: gold;
+  border-radius: 10px 20px 10px 20px;
+  box-shadow: 0px 2px 9px black;
+}
+
+.hicons {
+  /* border: 1px solid red; */
+}
+.hicons i {
+  color: white;
+  margin-right: 30px;
+  font-size: 30px;
+  transition: 0.3s;
+}
+.hicons i:hover {
+  transform: scale(1.1, 1.1);
+  color: gold;
+}
+.container1 {
+  background-image: url("../images/border-bg3.jpg");
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  flex-wrap: wrap;
+}
+.heading-con {
+  position: absolute;
+  color: white;
+  /* border: 1px solid red; */
+  width: 600px;
+  top: 100px;
+  left: 50px;
+}
+.heading-con h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-align-last: center;
+  font-family: "Miltonian Tattoo", serif;
+}
+.heading-con p {
+  font-size: 20px;
+  text-indent: 30px;
+  text-align-last: center;
+  font-family: "Parisienne", cursive;
+}
+.heading-con span {
+  color: rgba(218, 165, 32, 0.779);
+}
+
+/*--------- header section end -----------*/
+.contactsec {
+  /* border: 1px solid red; */
+  background-color: rgba(0, 0, 0, 0.933);
+  height: 20vh;
+}
+.contactsec .con-img-1 {
+  /* border: 1px solid red; */
+  /* background-color: rgba(0, 0, 0, 0.022); */
+  background-image: url(../images/C7-BG.png);
+  background-size: cover;
+  height: 100%;
+}
+.contactsec .con-img-1 img {
+  width: 100%;
+}
+.contactsec h1 {
+  padding-top: 10px;
+  color: rgb(220, 220, 220);
+  text-align: center;
+  font-family: "Charm", cursive;
+  font-size: 50px;
+}
+.contactsec h3 {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+.contactsec h3 span {
+  color: goldenrod;
+}
+/*--------- container4 section start -----------*/
+.container4 {
+  background-color: rgba(0, 0, 0, 0.951);
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+}
+.container4 .sec1 {
+  color: white;
+  padding: 70px;
+  margin-left: 50px;
+  border-right: 1px solid goldenrod;
+}
+.container4 .sec1 h1 {
+  font-family: "Imperial Script", cursive;
+}
+.container4 .sec1 i {
+  transition: 0.3s;
+}
+.container4 .sec1 i:hover {
+  transform: scale(1.1, 1.1);
+}
+.container4 .sec11 i {
+  transition: 0.3s;
+}
+.container4 .sec11 i:hover {
+  transform: scale(1.1, 1.1);
+}
+.container4 .sec11 {
+  color: white;
+  padding: 70px;
+  margin-left: 50px;
+}
+.container4 .sec11 h1 {
+  text-align: center;
+  font-size: 100px;
+  color: goldenrod;
+  font-family: "Imperial Script", cursive;
+}
+.container4 .sec11 h3 {
+  text-align: center;
+}
+
+.container4 .sec1 h1 {
+  text-align: center;
+  font-size: 100px;
+  color: goldenrod;
+}
+.container4 .sec1 h3 {
+  text-align: center;
+}
+/*----------- footer section start------------- */
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.952);
+  flex-wrap: wrap;
+}
+footer .f1 {
+  width: 300px;
+  margin-top: 50px;
+  color: white;
+}
+footer .f1 .foot-head1 {
+  margin-bottom: 20px;
+}
+footer .f1 .foot-head1 h1 {
+  font-size: 45px;
+  font-family: "Alex Brush", cursive;
+}
+.foot1 .foot-head2 p {
+  font-family: "Parisienne", cursive;
+}
+footer .f1 .foot-head1 p {
+  color: goldenrod;
+}
+footer .f1 .foot-head3 {
+  margin-top: 20px;
+}
+footer .f1 .foot-head3 i {
+  font-size: 30px;
+  margin-right: 15px;
+  color: goldenrod;
+  cursor: pointer;
+  transition: 0.2s;
+}
+footer .f1 .foot-head3 i:hover {
+  transform: scale(1.2, 1.2);
+  color: white;
+}
+.f1 .foot-cen-1 h2 {
+  color: goldenrod;
+  margin-bottom: 30px;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: "Miltonian Tattoo", serif;
+}
+.f1 .number h4 {
+  color: goldenrod;
+  font-size: 13px;
+}
+.f1 .foot-cen-2 .cellphone {
+  display: flex;
+}
+.f1 .content-con-4 {
+  display: flex;
+  margin-bottom: 40px;
+}
+.f1 .content-con-4 .con-img-1 {
+  width: 50px;
+}
+.f1 .content-con-4 .con-img-1 img {
+  width: 100%;
+}
+
+.f1 .content-con-5 .con-img-1 {
+  width: 50px;
+}
+.f1 .content-con-5 .con-img-1 img {
+  width: 100%;
+}
+
+.f1 .content-con-5 {
+  display: flex;
+}
+footer .if {
+  color: goldenrod;
+  font-size: 30px;
+  padding: 10px;
+}
+footer .cellphone {
+  margin-bottom: 20px;
+}
+.f1 .latestpost {
+  color: goldenrod;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: "Miltonian Tattoo", serif;
+}
+.foot3 .con-img-heading {
+  margin-left: 20px;
+}
+.foot3 .con-img-heading h3 {
+  color: goldenrod;
+}
+.container7 {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+.container7 .since {
+  border-top: 1px solid goldenrod;
+  width: 1300px;
+  margin-left: 100px;
+  padding: 30px;
+}
+.container7 .since h4 {
+  text-align: center;
+}
+.container7 .since h4 span {
+  color: goldenrod;
+}
+/*-------- footer section end-------------- */
